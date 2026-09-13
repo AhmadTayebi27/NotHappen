@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     ca-certificates \
     openssl
 
-ARG XRAY_VERSION=26.8.30
+ARG XRAY_VERSION=26.9.9
 
 RUN curl -L \
     "https://github.com/XTLS/Xray-core/releases/download/v${XRAY_VERSION}/Xray-linux-64.zip" \
